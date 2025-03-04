@@ -45,7 +45,7 @@
 }
 
 body {
-  font-family: var(--font-sans), "Comic Sans MS", cursive, sans-serif;
+  font-family: var(--font), sans-serif;
 }
 
 :root {
@@ -123,6 +123,7 @@ body {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }

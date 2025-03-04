@@ -1,6 +1,10 @@
-export default function Home() {
+// /app/page.tsx (or /pages/index.tsx)
+import * as React from "react";
+
+export default function Page() {
   return (
-    <p>Hello World</p>
+    <div>
+      Hello
+    </div>
   );
 }
-
