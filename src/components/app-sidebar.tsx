@@ -31,7 +31,7 @@ const data = {
             items: [
                 {
                     title: "Gráfico Inteligente",
-                    url: "#",
+                    url: "pagegrafintel",
                 },
                 {
                     title: "Gráfico de Consumo",

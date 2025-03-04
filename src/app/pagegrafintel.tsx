@@ -1,11 +1,11 @@
 // /app/page.tsx (or /pages/index.tsx)
-import { ChartOne } from "@/components/chart-one";
+import { ChartTwo } from "@/components/chart-two";
 import * as React from "react";
 
 export default function Page() {
   return (
     <div>
-      <ChartOne />
+      <ChartTwo />
     </div>
   );
 }
