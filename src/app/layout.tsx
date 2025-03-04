@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
+import { poppinsFont } from "@/fonts/font";
 import "./globals.css";
-import { IbmMono,IbmSans } from "@/fonts/font";
 
 export const metadata: Metadata = {
   title: "Voltic",
@@ -14,9 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={` ${IbmSans.variable} ${IbmMono.variable} antialiased`}
-      >
+      <body className={`${poppinsFont.className} antialiased`}>
         {children}
       </body>
     </html>

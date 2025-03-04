@@ -1,13 +1,7 @@
-import { IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
+import { Poppins } from "next/font/google";
 
-export const IbmSans = IBM_Plex_Sans({
-  variable: "--font-ibm-sans",
+export const poppinsFont = Poppins({
+  variable: "--font-poppins",
   subsets: ["latin"],
-  weight: ["100"]
-});
-
-export const IbmMono = IBM_Plex_Mono({
-  variable: "--font-ibm-mono",
-  subsets: ["latin"],
-  weight: ["200"]
+  weight: ["200", "400", "700"]
 });
