@@ -30,12 +30,16 @@ const data = {
             icon: Bot,
             items: [
                 {
+                    title: "Graficos",
+                    url: "/graficos",
+                },
+                {
                     title: "Gráfico Inteligente",
-                    url: "grafico-inteligente",
+                    url: "/graficos/inteligente",
                 },
                 {
                     title: "Gráfico de Consumo",
-                    url: "#",
+                    url: "/graficos/consumo",
                 },
             ],
         },
@@ -46,12 +50,12 @@ const data = {
             isActive: true,
             items: [
                 {
-                    title: "Meus Dispositivos",
-                    url: "dipositivos",
+                    title: "Dispositivos",
+                    url: "/dipositivos",
                 },
                 {
                     title: "Novo Dispositivo",
-                    url: "#",
+                    url: "/dipositivos/novo",
                 },
             ],
         }
