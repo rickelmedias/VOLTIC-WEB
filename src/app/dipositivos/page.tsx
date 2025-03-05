@@ -1,11 +1,10 @@
 // /app/page.tsx (or /pages/index.tsx)
-import { ChartTwo } from "@/components/chart-two";
+import { DataTableDemo } from "@/components/data-table";
+
 import * as React from "react";
 
 export default function Page() {
   return (
-    <div>
-      <ChartTwo />
-    </div>
+    <DataTableDemo />
   );
 }

@@ -31,7 +31,7 @@ const data = {
             items: [
                 {
                     title: "Gráfico Inteligente",
-                    url: "pagegrafintel",
+                    url: "grafico-inteligente",
                 },
                 {
                     title: "Gráfico de Consumo",
@@ -47,7 +47,7 @@ const data = {
             items: [
                 {
                     title: "Meus Dispositivos",
-                    url: "#",
+                    url: "dipositivos",
                 },
                 {
                     title: "Novo Dispositivo",
